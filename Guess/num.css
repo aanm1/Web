@@ -1,0 +1,33 @@
+.header{
+    text-align: center;
+    color: white;
+}
+.input{
+    position: absolute;
+    left: 46%;
+    top: 18%;
+
+}
+.submit{
+    position: absolute;
+    left: 48%;
+    top: 25%;
+    height: 40px;
+    width: 60px;
+
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    position: absolute;
+    left: 46%;
+    top: 10%;
+}
+.correct{
+    color: green;
+}
+.incorrect{
+    color: red;
+}

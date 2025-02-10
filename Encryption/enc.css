@@ -1,0 +1,52 @@
+#page{
+    background-color: black;
+}
+
+
+#header{
+    text-align: center;
+    color:white;
+    background-color: grey;
+    padding: 25px;
+    font-family: cursive;
+    font-size: 25px;;
+    margin:10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: whitesmoke;
+    border-radius: 25px;;
+
+}
+
+#header:hover{
+    text-align: center;
+    color:red;
+    background-color: grey;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    margin:25px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: whitesmoke;
+    border-radius: 25px;;
+
+}
+
+p{
+    color: white;
+    margin: 25px;
+    text-align: center;
+}
+
+label{
+    color:white;
+}
+
+#key{
+    color:white;
+}
+
+select{
+    color: navy;
+}

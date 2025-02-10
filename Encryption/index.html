@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="enc.css">
+    <title>Encryption</title>
+</head>
+<body>
+    <h1 id="header"> Text Encryption</h1>
+    <p>This program provides you with the capacity to encrypt your messages using symmetirc key encryption</p>
+    <p>Note: The algorithm runs the encryption lagorithm using the symmetric key concept, which meams that the 
+        cipher text made by the algorithm can only be reversed o the plain text with the symmetic key used to encrypt 
+        the key. This program offers encryption methods that it called "King" and "Mathematician". Please not that
+        the symmetric key should remain confidential between the sender and receiver of the message.
+    </p>
+    <p> The leak of the encryption key may lead to decryptionof the Cipher text providing unauthorized access
+        to the information
+    </p>
+    <label for = "method" id="method"> Encryption method</label>
+    <select id = "methods" name = method>
+        <option id = "none" value ="default" selected></option>
+        <option id ="Kings" value ="Kings"> Kings</option>
+        <option id ="Mathimatican" value = "Mathimatician">Mathimatican</option>
+    </select>
+
+    <br><br>
+
+    <label for = "messages"> Message: </label>
+
+    <textarea id ="message" name = "messages" rows = "10" cols = "200" placeholder="Enter plain text here."> </textarea><br><br>
+    <input id ="key" type = "text" placeholder="Enter Key here."><br>
+
+    <input id = "submit" type = "submit" value =" submit">
+    <script src ="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+html{
+    background-color: darkgray;
+}
+
+.header{
+    position: absolute;
+    left: 44%;
+}
+
+.date{
+    position: absolute;
+    left: 48%;
+    top: 15%;
+}
+
+label{
+    position: absolute;
+    left: 42%;
+    top: 15%;
+}
+
+.add{
+    position: absolute;
+    left :40%;
+    top: 31%;
+}
+.remove{
+    position: absolute;
+    left :45%;
+    top: 31%;
+}
+.replace{
+    position: absolute;
+    left :50%;
+    top: 31%;
+}
+.clear{
+    position: absolute;
+    left :55%;
+    top: 31%;
+}
+
+.lablist{
+    position: absolute;
+    left:42%;
+    top:36%;
+}
+
+
+.describe{
+    position: absolute;
+    left: 42%;
+    top: 22%;
+    height: 50px;
+    width :200px;
+}
+
+.generate{
+    position: absolute;
+    left: 45%;
+    top: 38%;
+}
