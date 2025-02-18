@@ -1,15 +1,37 @@
-document.querySelector("#submit").addEventListener("click",encrypt)
+document.querySelector("#submit").addEventListener("click",begin);
 
-function encrypt(){
-    var key= document.querySelector("#methods").value;
-    var word = document.querySelector("#message");
-    var container = []
 
-    for ( i = 0; i<=word.value.length; i++){
-        container[i] = (word.value[i])
+
+function kings(submission,key){
+    submit = submission;
+    kulf = key;
+    caesar = [submission];
+    alert(caesar);
+}
+
+
+function mathimatics(submission,key){
+    submit = submission;
+    kulf = key;
+    alert("You picked the mathimatician")
+}
+
+function begin(){
+    let date = new Date().getDay();
+    let time = new Date().getTime();
+    alert (date,time)
+   
+    alert("System Started")
+    var submission = document.querySelector("#methods").value;
+    var plainText = document.querySelector("#message").value;
+    var lock = document.querySelector("#key").value;
+    alert("About to enter phase 1");
+    alert(submission)
+    if(submission === "Kings"){
+        kings(plainText, lock);
+    }else if (submission === "Mathimatician"){
+        mathimatics(plainText,lock);
+    }else{
+        alert("Please Enter a valid Encryption method");
     }
-
-    alert(container)
-
-
 }

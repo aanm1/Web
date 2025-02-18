@@ -1,0 +1,52 @@
+html{
+    background-color: lightslategray;
+}
+
+#bank_name{
+    color:blue;
+    background-color: whitesmoke;
+    border-style:broken;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: whitesmoke;
+    margin-left: 25%;
+    padding:5px 25px 25px 25px;
+    padding-left: 120px;
+    width:300px;
+    height: 20px;
+    font-family: cursive;
+    font-style: italic;
+    animation-name: bank-name;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+
+@keyframes bank-name{
+    0% {color:green;left:25%; top:0%}
+    50% {color:blue; left:50%; top:0%}
+    100%{color:red; left:100%; top:0%}
+
+}
+
+.main{
+    background-color:whitesmoke;
+    padding: 10px;
+    float:right;
+    width: 70%;
+    border:solid 5px black;
+    height:95%;
+
+}
+
+.aside{
+    margin-left:25px;
+    background-color:lightblue;
+    padding: 10px;
+    float:left;
+    width: 15%;
+    border: outset 5px black;
+    height:95%;
+    border-radius: 25px;
+}

@@ -5,23 +5,8 @@
 
 #header{
     text-align: center;
-    color:white;
-    background-color: grey;
-    padding: 25px;
-    font-family: cursive;
-    font-size: 25px;;
-    margin:10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: whitesmoke;
-    border-radius: 25px;;
-
-}
-
-#header:hover{
-    text-align: center;
-    color:red;
-    background-color: grey;
+    color:whitesmoke;
+    background-color: gray;
     padding: 10px;
     font-family: cursive;
     font-size: 30px;
@@ -43,10 +28,45 @@ label{
     color:white;
 }
 
-#key{
-    color:white;
-}
 
 select{
     color: navy;
+}
+
+#submit{
+    margin-left:45%;
+    color:black;
+    background-color: white;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    border-style: outset;
+    border-radius: 25px;
+    border-color: white;
+}
+
+
+
+#submit:hover{
+    margin-left:45%;
+    color:black;
+    background-color: green;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    border-style: outset;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.plain{
+    float:right;
+    width:70%;
+
+}
+
+.option{
+    float:left;
+    width:25%;
+    margin:20px;
 }
