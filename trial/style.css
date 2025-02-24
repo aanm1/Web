@@ -1,0 +1,111 @@
+#first{
+  height: 100%;
+  width: 100%;
+  background-color: silver;
+}
+
+#name{
+  background-color: lightblue;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#dis{
+  background-color:white;
+}
+#con{
+  background-color:white;
+}
+#Bank{
+  text-align: center;
+  color: black; 
+}
+#gpt{
+  size: 10px;
+  align-content: center;
+  Text-align: center;
+}
+
+/* First page is below */
+
+#prime{
+  background-color: black;
+}
+#title{
+  text-align: center;
+  color: White;
+}
+#eadd{
+  background-color:White;
+}
+
+#password{
+  background-color: white;
+  color: black;
+}
+#info{
+  text-align:center;
+  position: center;
+}
+
+#log{
+  background-color:white;
+}
+
+#foot{
+  color:White;
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+  }
+
+}
+
+#webp {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  top: 20px;
+  left: 0%; 
+  animation-name: picture;
+  animation-duration:20s;
+  animation-iteration-count: infinite;
+
+  
+}
+
+@keyframes picture{
+  0%{left:0%; top:20px;}
+  25%{left:50%; top:0px;}
+  50%{left:90%;top:0px}
+  75%{left:50%;top:0px}
+  100%{left:0%;top:0px}
+}
+
+
+#sign{
+  border-radius:0;
+  background-color:white;
+}
+
+#gif{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display:none;
+  height: 80px;
+  widht: 80px;
+}
+
+#lt{
+  Text-align:center;
+}
+#graph{
+  position:absolute;
+  right:35%;
+}
