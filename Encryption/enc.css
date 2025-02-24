@@ -1,5 +1,5 @@
 #page{
-    background-color: black;
+    background-image: url("Background.png");
 }
 
 
@@ -19,15 +19,19 @@
 }
 
 p{
-    color: white;
+    font-weight: bolder;
+    color: White;
     margin: 25px;
     text-align: center;
 }
 
 label{
-    color:white;
+    color:black;
 }
 
+#main_text{
+    background-color:black;
+}
 
 select{
     color: navy;
