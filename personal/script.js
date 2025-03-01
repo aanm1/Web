@@ -1,5 +1,7 @@
-function start(){
-    let song  = new audio("dan.mp3")
-    song.play()
+function start() {
+    let song = new Audio("dan.mp3");  // Create a new audio object
+    song.play();  // Play the audio file
 }
-window.onload = start()
+
+// Execute the function when the window has fully loaded
+window.onload = start();
