@@ -1,0 +1,36 @@
+h1{
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.main{
+    background-color:rgb(28, 85, 161)
+}
+
+img{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    border:s 5px black;
+    margin-top:10px;
+    margin-left: 40%;
+    margin-bottom:10px;
+    animation-duration: 10s;
+    animation-name: revolve;
+    animation-iteration-count: infinite;
+}
+
+
+@keystream revlove{
+    0% {transform: rotate(0deg)}
+    100% {transform:rotate(100deg)}
+}
+
+
+img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+}

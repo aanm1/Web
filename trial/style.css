@@ -75,16 +75,14 @@
   animation-name: picture;
   animation-duration:20s;
   animation-iteration-count: infinite;
-
-  
 }
 
 @keyframes picture{
-  0%{left:0%; top:20px;}
-  25%{left:50%; top:0px;}
-  50%{left:90%;top:0px}
-  75%{left:50%;top:0px}
-  100%{left:0%;top:0px}
+  0%{ transform: rotate3d(0, 1, 0, 0deg);}
+  25%{transform: rotate3d(0, 1, 0, 90deg);}
+  50%{transform: rotate3d(0, 1, 0, 180deg);}
+  75%{transform: rotate3d(0, 1, 0, 270deg);}
+  100%{transform: rotate3d(0, 1, 0, 360deg);}
 }
 
 
@@ -99,7 +97,7 @@
   left: 50%;
   display:none;
   height: 80px;
-  widht: 80px;
+  width: 80px;
 }
 
 #lt{
