@@ -1,28 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    background-color: white;
+    width:500px;
+    height:50px;
+    margin-left:10%;
+    margin-right:25%;
+    margin-top: 10%;
+    border-radius: 35px;
+    border-color: solid 100px green;
+    border-style: inset;
+   
+}
+
+
 h1{
-    color:darkblue;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
-
+    animation: ;
 }
 
 .main{
-    background-color:rgb(28, 85, 161)
+    background-color:rgb(26, 35, 2);
 }
 
-img{
+.hello{
+    color:white;
+}
+
+.cyber{
+    color: goldenrod;
+}
+
+.software{
+    color:goldenrod;
+}
+
+.and{
+    color:white;
+}
+
+.umbc_logo{
+    background-color: silver;
+    margin-left: 35%;
+    margin-right:50%;
+    width:100px;
+    height:140px;
+}
+
+.umbc{
     width: 100px;
     height: 140px;
-    position: relative;
-    margin-top:10px;
-    margin-left: 40%;
-    margin-bottom:10px;
+    margin-top:0px;
+    margin-left: 0%;
+    margin-bottom:0px;
+    border-radius: 20%;
     animation-name: revolve;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite !important;
+    position: relative;
 }
-
 
 @keyframes revolve{
-    0% {transform: rotate(0deg)};
-    100% {transform:rotate(360deg)};
+    0%{ transform: rotate3d(0, 1, 0, 0deg);}
+    100%{transform: rotate3d(0, 1, 0, 360deg);}
 }
+
+.project{
+    background-color: aqua;
+}
+
+.coursework{
+    background-color: whitesmoke;
+}
+.skills{
+    background-color: green;
+}
+.othersay{
+    background-color: beige;
+}
+
+
+
+.navigate ul li{
+    padding: top 10px;
+    color:black;
+    display:inline;
+    margin-left:10px;
+    text-align: center;  
+}
+
+
+.navigate ul li:hover{
+    color:goldenrod;
+}
+
+.hello, .software, .and, .cyber {
+    animation: fadeIn 3s forwards;
+    display: inline-block;
+  }
+  
+@keyframes fadeIn {
+0% { opacity: 0; transform: translateY(0px);}
+100% {opacity: 1; transform: translate(-5px,50%,50px);}
+}
+  
+  /* Delay each word */
+.hello { animation-delay: 0.5s; }
+.software { animation-delay: 1s; }
+.and { animation-delay: 1.5s; }
+.cyber { animation-delay: 2s; }
