@@ -2,28 +2,29 @@ html{
     scroll-behavior: smooth;
 }
 
-.navigation{
+.navigate{
     background-color: white;
-    width:500px;
-    height:50px;
-    margin-left:10%;
-    margin-right:25%;
-    margin-top: 10%;
-    border-radius: 35px;
     border-color: solid 100px green;
     border-style: inset;
-   
+    border-radius: 25px;
+    width: 500px;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 20px;   
+}
+
+.navigatelsit{
+    margin-left: 25px;;
 }
 
 
 h1{
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    animation: ;
+    margin-left: 35%;
 }
 
 .main{
-    background-color:rgb(26, 35, 2);
+    background-color:rgb(0, 0, 0);
 }
 
 .hello{
@@ -104,7 +105,7 @@ h1{
   
 @keyframes fadeIn {
 0% { opacity: 0; transform: translateY(0px);}
-100% {opacity: 1; transform: translate(-5px,50%,50px);}
+100% {opacity: 1; ;}
 }
   
   /* Delay each word */
