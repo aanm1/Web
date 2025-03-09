@@ -3,5 +3,5 @@ function play(){
     song.play();
 }
 
-window.onload = pla;
+window.onload = play;
 
