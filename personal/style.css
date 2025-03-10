@@ -74,45 +74,54 @@ h1{
     background-color: aqua;
 }
 
+label{
+    color: goldenrod;
+    text-decoration:underline;
+}
 .coursework {
-    background-color: whitesmoke;
-    display: inline-block;
+    display: flex;           /* Add space between the two divs */
+    gap: 5%;
+    background-color: black;
 }
 
-.coursework .primary_course{
-    width:300px;
-    float:left;
-
+.coursework_primary, .coursework_secondary, .coursework_three{
+    border: 10px;
+    flex: 1;                /* Each div will take equal space */
+    padding: 10px;
+    font-family: cursive; 
 }
-.coursework .secondary_course{
-    float: right;
-    background-color: white;
-    width:300px;
-    margin-left: 10px;
+#coursework{
+    color:goldenrod
+}
+.coursework_primary li, .coursework_secondary, .coursework_three, li{
+    list-style: none;
+    padding:0px;
+    color: goldenrod;
 }
 
 
 
 .skills{
     background-color: green;
+    padding: 0%;
 }
 .othersay{
     background-color: beige;
 }
 
 
-
 .navigate ul li{
     padding: top 10px;
-    color:black;
     display:inline;
     margin-left:10px;
-    text-align: center;  
+    text-align: center; 
+   
 }
 
 .navigate ul li a{
     color:black; 
     text-decoration:none;
+    
 }
 
 
@@ -129,8 +138,6 @@ h1{
 0% { opacity: 0; transform: translateY(0px);}
 100% {opacity: 1; ;}
 }
-  
-  /* Delay each word */
 .hello { animation-delay: 0.5s; }
 .software { animation-delay: 1s; }
 .and { animation-delay: 1.5s; }
