@@ -46,14 +46,13 @@ h1{
 
 .umbc_logo{
     background-color: silver;
-    margin-left: 35%;
-    margin-right:50%;
+    margin-left:40%;
+    margin-right:40%;
     width:100px;
     height:140px;
 }
 
 .umbc{
-    width: 100px;
     height: 140px;
     margin-top:0px;
     margin-left: 0%;
@@ -88,7 +87,7 @@ label{
     border: 10px;
     flex: 1;                /* Each div will take equal space */
     padding: 10px;
-    font-family: cursive; 
+    font-family: 'Times New Roman', Times, serif; 
 }
 #coursework{
     color:goldenrod
@@ -97,6 +96,7 @@ label{
     list-style: none;
     padding:0px;
     color: goldenrod;
+    
 }
 
 
