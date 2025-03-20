@@ -85,15 +85,21 @@
                 <img src ="git.png">
             </div>
         </div>
-        <p>fsdfsdfsdfsdfgkkgbdbjbdfnbdsjfbgbdfbgdfbg
-            DFBGDBKDSJBJDBBGDFJGJDFBBGDFJGHBDFBSKJDBGDFJGBJSDBFJBGJBFDJG
-            FDGJDBFJGBJDBFKBGJDFBJKGBKDFBKGBSDBFKGBDKJFBGBSKJDFBGKSBDKJFBGKBKDJBFG
-        </p>
 
         <div class = "othersay" id = "othersay">
             <p>What others goes here</p>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script> 
+        document.getElementById("About").addEventListener("click", function() {
+            console.log("Element clicked!"); // Debugging: check if the click works
+            
+            const song = new Audio("dan.mp3"); // Make sure the path is correct
+            console.log("Audio created: ", song); // Check if the Audio object is created
+
+            song.play(); // Play the song
+            console.log("It went through it."); // This should print to the console
+        });
+    </script> 
 </body>
 </html>
