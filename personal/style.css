@@ -44,7 +44,7 @@ html{
 
 
 .navigate{
-    background-color: white;
+    background-color: burlywood;
     border-color: solid 100px green;
     border-style: inset;
     border-radius: 25px;
@@ -53,6 +53,8 @@ html{
     margin-left: 35%;
     margin-top: 20px; 
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .navigatelsit{
