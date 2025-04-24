@@ -2,6 +2,9 @@ html{
     scroll-behavior: smooth;
     background-color: black;
 }
+.signature{
+    background-color: white;
+}
 #mains{
     display: flex;
     gap: 0px;
