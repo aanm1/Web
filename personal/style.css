@@ -21,11 +21,12 @@ html{
 
 .navigate ul li a:hover{
     color:goldenrod;
+    text-decoration:overline;
 }
  
 
 .navigate ul li a{
-    color:black; 
+    color:black; ;
     text-decoration:none;
     
     
@@ -44,7 +45,7 @@ html{
 
 
 .navigate{
-    background-color: burlywood;
+    background-color: #fdfaf6;
     border-color: solid 100px green;
     border-style: inset;
     border-radius: 25px;
@@ -64,12 +65,14 @@ html{
 
 h1{
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
     position: relative;
+}
+.introduction{
+    text-align: center;
 }
 
 .main{
-    background-color:rgb(0, 0, 0);
+    background-color: #2c2c2c;
 }
 
 .hello{
@@ -118,19 +121,19 @@ h1{
     background-color: aqua;
 }
 
-label{
+p{
     color: goldenrod;
     text-decoration:underline;
+    text-align: centersdf;
 }
 .coursework {
-    display: flex;           /* Add space between the two divs */
+    display: flex;           
     gap: 5%;
-    background-color: black;
 }
 
 .coursework_primary, .coursework_secondary, .coursework_three{
     border: 10px;
-    flex: 1;                /* Each div will take equal space */
+    flex: 1;                
     padding: 10px;
     font-family: 'Times New Roman', Times, serif; 
 }
@@ -149,7 +152,6 @@ label{
     overflow: hidden;
     padding: 0px 0;
     white-space: nowrap;
-    background-color: black;
     padding: 10px;
 
 }
@@ -158,15 +160,12 @@ label{
 .skill_slide{
   display: inline-block;
   animation: 10s slide infinite linear;
-  background-color: black;
 } 
 
 
 .skill_slide img{
     height: 60px;
     margin: 0 20px;
-    background-color: rgb(50, 54, 13);
-
 }
 
 @keyframes slide{
@@ -182,8 +181,23 @@ label{
 
 
 
-.othersay{
-    background-color: beige;
+.othersay p{
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.othersay li div{
+    display: flex;
+    flex: 1;
+    background-color: white;
+}
+
+.othersay li, .othersay li a{
+    display: flex;
+    color: goldenrod;
+    flex: 1;
+    gap: 20px;
 }
 
 .hello, .software, .and, .cyber {
@@ -200,6 +214,28 @@ label{
 .and { animation-delay: 1.5s; }
 .cyber { animation-delay: 2s; }
 
+
+.footer {
+    background-color:#252323;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 5px, #1e1d1d;
+  }
+
+  .footer input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .footer input[type="submit"] {
+    padding: 5px 10px;
+  }
+
+  .footer p {
+    margin-top: 20px;
+    
+  }
 
 
 
