@@ -40,10 +40,6 @@ html{
    
 }
 
-
-
-
-
 .navigate{
     background-color: #fdfaf6;
     border-color: solid 100px green;
@@ -237,6 +233,24 @@ p{
     
   }
 
+.gpt{
+    margin-top: 40px;
+}
+
+.genai {
+    display: inline-block; /* change this */
+    width: auto;           /* or a fixed value like 120px */
+    height: 24px;          /* now height works too */
+    border-radius: 25px;
+    padding: 0 10px;       /* space inside the box */
+    background-color: #f0f0f0;
+    line-height: 24px;
+  }
+  .gpt label{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
 
 
 
