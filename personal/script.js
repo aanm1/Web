@@ -1,18 +1,12 @@
-var name = "Abel";
-console.log(name);
+import express from "express";
+import bodyParser from "body-parser";
 
-const player = require('play-sound')();  // Import the play-sound library
+const app = express();
+const port = 3000; // or any port you prefer
 
-function play() {
-    player.play('dan.mp3', function(err) {
-        if (err) {
-            console.log('Error playing the sound:', err);
-        } else {
-            console.log('Sound played successfully!');
-        }
-    });
+app.use(bodyParser.json()); // to parse JSON bodies
+app.use(bodyParser.urlencoded({ extended: true })); // to parse URL-encoded bodies
 
-    console.log("It went through it.");
-}
-
-play();  // Call the play function to trigger it
+app.listen(port, () => {
+    console.log(`Server is on and listening at http://localhost:${port}`);
+});
