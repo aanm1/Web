@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navigatelist {
+    background-color: white;
+    border-style: inset;
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+    display:flex;
+    padding: 2px;
+    gap:10px;
+    list-style: none;
+    justify-content: center;  /* Centers items horizontally */
+    align-items: center;  /* Centers items vertically */
+    margin: 20px auto;  /* Centers the navbar */
+    text-decoration: none;
+
+}
+
+.navigate ul li a:hover{
+    color:goldenrod;
+    text-decoration:overline;
+}
+ 
+
+.navigate ul li a{
+    color:black; ;
+    text-decoration:none;
+    
+    
+}
+
+.navigate ul li{
+    padding: top 10px;
+    display:inline;
+    margin-left:10px;
+    text-align: center; 
+   
+}
+
+.navigate{
+    background-color: #fdfaf6;
+    border-color: solid 100px green;
+    border-style: inset;
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 20px; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navigatelsit{
+    margin-left: 25px;
+}
+
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+.introduction{
+    text-align: center;
+}
+
+.main{
+    background-color: #2c2c2c;
+}
+
+.hello{
+    color:white;
+}
+
+.cyber{
+    color: goldenrod;
+}
+
+.software{
+    color:goldenrod;
+}
+
+.and{
+    color:white;
+}
+
+.umbc_logo{
+    background-color: silver;
+    margin-left:40%;
+    margin-right:40%;
+    width:100px;
+    height:140px;
+}
+
+.umbc{
+    height: 140px;
+    margin-top:0px;
+    margin-left: 0%;
+    margin-bottom:0px;
+    border-radius: 20%;
+    animation-name: revolve;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite !important;
+    position: relative;
+}
+
+@keyframes revolve{
+    0%{ transform: rotate3d(0, 1, 0, 0deg);}
+    100%{transform: rotate3d(0, 1, 0, 360deg);}
+}
+
+.project{
+    background-color: aqua;
+}
+
+p{
+    color: goldenrod;
+    text-decoration:underline;
+    text-align: centersdf;
+}
+.coursework {
+    display: flex;           
+    gap: 5%;
+}
+
+.coursework_primary, .coursework_secondary, .coursework_three{
+    border: 10px;
+    flex: 1;                
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+#coursework{
+    color:goldenrod
+}
+.coursework_primary li, .coursework_secondary, .coursework_three, li{
+    list-style: none;
+    padding:0px;
+    color: goldenrod;
+    
+}
+
+.skills{
+    height: 60px;
+    overflow: hidden;
+    padding: 0px 0;
+    white-space: nowrap;
+    padding: 10px;
+
+}
+
+
+.skill_slide{
+  display: inline-block;
+  animation: 10s slide infinite linear;
+} 
+
+
+.skill_slide img{
+    height: 60px;
+    margin: 0 20px;
+}
+
+@keyframes slide{
+    from{transform: translateX(0)}
+    to{transform: translateX(-100%)}
+   
+}
+
+.skills:hover .skill_slide{
+    animation-play-state: paused;
+
+}
+
+
+
+.othersay p{
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.othersay li div{
+    display: flex;
+    flex: 1;
+    background-color: white;
+}
+
+.othersay li, .othersay li a{
+    display: flex;
+    color: goldenrod;
+    flex: 1;
+    gap: 20px;
+}
+
+.hello, .software, .and, .cyber {
+    animation: fadeIn 3s forwards;
+    display: inline-block;
+  }
+  
+@keyframes fadeIn {
+0% { opacity: 0; transform: translateY(0px);}
+100% {opacity: 1; ;}
+}
+.hello { animation-delay: 0.5s; }
+.software { animation-delay: 1s; }
+.and { animation-delay: 1.5s; }
+.cyber { animation-delay: 2s; }
+ 
+
+.footer {
+    background-color:#252323;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 5px, #1e1d1d;
+  }
+
+  .footer input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .footer input[type="submit"] {
+    padding: 5px 10px;
+  }
+
+  .footer p {
+    margin-top: 20px;
+    
+  }
+
+.gpt{
+    margin-top: 40px;
+}
+
+.genai {
+    display: inline-block; /* change this */
+    width: auto;           /* or a fixed value like 120px */
+    height: 24px;          /* now height works too */
+    border-radius: 25px;
+    padding: 0 10px;       /* space inside the box */
+    background-color: #f0f0f0;
+    line-height: 24px;
+  }
+  .gpt label{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+
+
+
+
+
