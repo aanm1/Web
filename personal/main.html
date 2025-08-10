@@ -9,97 +9,88 @@
     </head>
     
     <body>
-        <div id = "mains"> 
-            <nav class ="navigate">
-                <ul class = "navigatelsit">
-                    <li> <a href="#About">About</a></li>
-                    <li><a href="#umbc_logo">School</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#coursework">Coursework</a></li>
-                    <li><a href="#skills">Skill</a></li>
-                    <li><a href="#othersay">Testimony</a></li>    
-                </ul>
-            </nav>
-            <img class="bright" src="bright.gif">
-        </div>
-
-
-        <div class ="intro">
-            <h1 id ="About">
-                <span class = "hello">Hey, I'm Abel Negatu -a,</span>
-                <span class = "software">Software Engineer </span><br>
-                <span class = "and"> and </span>
-                <span class ="cyber">Cybersecurity Analyst</span>
-            </h1>
-        </div>
-
-        <div class = "umbc_logo" id = "umbc_logo">
-            <a href = "https://umbc.edu/"><img class =" umbc"src = "logo.png"></a>
-        </div>
-
-
-        <label for ="coursework">Relevant Coursework</label>
-        <div class = "coursework" id = "coursework">
-            
-            <div class ="coursework_primary">
-                <ul class ="primary_course">
-                    <li>Computer Science I (Programming)</li>
-                    <li>Calculus I</li>
-                    <li>Object Oriented Programming</li>
-                    <li>Linear Algebra</li>
-                    <li> Applied Statistics</li>
-                </ul>
+       
+        <div>
+            <div id = "mains"> 
+                <nav class ="navigate">
+                    <ul class = "navigatelsit">
+                        <li> <a href="#About">About</a></li>
+                        <li><a href="#umbc_logo">School</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#othersay">Testimony</a></li>    
+                    </ul>
+                </nav>
+                <img class="bright" src="bright.gif">
             </div>
 
-            <div class ="coursework_three">
-                <ul class ="three_course">
-                    <li>Data Communication and Network</li>
-                    <li>Introduction to Cybersecurity</li>
-                    <li>Data Analysis for Cybersecurity</li>
-                    <li>Management Information Systems</li>
-                    <li>Hardware and Software Concepts</li>
-                </ul>
+            <div class ="gpt" id="gpt">
+                <h1>Ask Echu About Abel</h1><br>
+                <input type="text" class="bot-input" placeholder="  What would you like to know?">
+                <button class="submit">Ask</button>
+                <p class="response"></p>
             </div>
+
+
+            <div class ="intro">
+                <h1 id ="About">
+                    <span class = "hello">Hey, I'm Abel Negatu -a,</span>
+                    <span class = "software">Software Engineer </span><br>
+                    <span class = "and"> and </span>
+                    <span class ="cyber">Cybersecurity Analyst</span>
+                </h1>
+            </div>
+
+            <div class = "umbc_logo" id = "umbc_logo">
+                <a href = "https://umbc.edu/"><img class =" umbc"src = "logo.png"></a>
+            </div>
+
+
+            <label for ="Experience">Experience</label>
+            <div class = "Experience" id = "Experience">
                 
-            <div class ="coursework_secondary">
-                <ul class = "secondary_course">
-                    <li>LAN Management using UNIX</li>
-                    <li>Database Design</li>
-                    <li>Database Application Development</li>
-                    <li>Decision Support System</li>
-                    <li>Discrete Structures</li>
-                </ul>
+                <div class ="Technuf" id = "Technuf">
+                    <img id = "technuf_img" src ="./Technuf.png" alt="Cybersecurity Intern/ Software Engineer">
+                    <p><i> "When Technology is not enough."</i></p>
+                    <p>I deployed and configured Prometheus along with the Blackbox Exporter to monitor HTTP/S and TCP service endpoints using standardized probe configurations. I integrated Prometheus as a data source within Grafana, including setting up remote_write for seamless metric streaming to Grafana Cloud. I designed and published several monitoring dashboards, such as 30-day uptime gauges for service visibility, 24-hour heatmaps to track real-time probe results, and 90-day sparklines for long-term availability trends. To ensure reliable alerting, I developed Alertmanager rules that monitored consecutive probe failures and latency breaches, integrating notifications via Slack, email, and Microsoft Teams. I also created Python scripts to automate the sending of alert emails and Teams messages, enhancing the notification system’s reliability and customization. In a staging environment, I conducted quality assurance and failure injection testing by simulating network outages to validate alert triggers and system resilience. Finally, I authored a comprehensive production runbook detailing system architecture, performance tuning, upgrade procedures, and incident response protocols to support a smooth operational handover.</p>  
+                </div>
+
+                <div class ="PQC">
+                    <img id = "pqc_img" src ="https://styleguide.umbc.edu/wp-content/uploads/sites/113/2020/01/UMBC-logo-with-honors-tagline.png" alt = "Cybersecurity">
+                    <p>I deployed and configured Prometheus along with the Blackbox Exporter to monitor HTTP/S and TCP service endpoints using standardized probe configurations. I integrated Prometheus as a data source within Grafana, including setting up remote_write for seamless metric streaming to Grafana Cloud. I designed and published several monitoring dashboards, such as 30-day uptime gauges for service visibility, 24-hour heatmaps to track real-time probe results, and 90-day sparklines for long-term availability trends. To ensure reliable alerting, I developed Alertmanager rules that monitored consecutive probe failures and latency breaches, integrating notifications via Slack, email, and Microsoft Teams. I also created Python scripts to automate the sending of alert emails and Teams messages, enhancing the notification system’s reliability and customization. In a staging environment, I conducted quality assurance and failure injection testing by simulating network outages to validate alert triggers and system resilience. Finally, I authored a comprehensive production runbook detailing system architecture, performance tuning, upgrade procedures, and incident response protocols to support a smooth operational handover.</p> 
+                </div>
+                
+            </div>
+        
+            
+            <label for = "skills">Tech Stacks</label>
+            <div class = "skills" id="skills">
+                    <div class = "skill_slide">
+                        <img src ="pyhton.png">
+                        <img src ="javascript.png">
+                        <img src ="css.png">
+                        <img src ="html.png">
+                        <img src ="matlab.png">
+                        <img src ="r.png">
+                        <img src ="wireshark.png">
+                        <img src ="git.png">
+                    </div>
+                    <div class = "skill_slide">
+                        <img src ="pyhton.png">
+                        <img src ="javascript.png">
+                        <img src ="css.png">
+                        <img src ="html.png">
+                        <img src ="matlab.png">
+                        <img src ="r.png">
+                        <img src ="wireshark.png">
+                        <img src ="git.png">
+                    </div>
             </div>
             
-        </div>
-    
-        
-        <label for = "slills"> Skills</label>
-        <div class = "skills" id="skills">
-                <div class = "skill_slide">
-                    <img src ="pyhton.png">
-                    <img src ="javascript.png">
-                    <img src ="css.png">
-                    <img src ="html.png">
-                    <img src ="matlab.png">
-                    <img src ="r.png">
-                    <img src ="wireshark.png">
-                    <img src ="git.png">
-                </div>
-                <div class = "skill_slide">
-                    <img src ="pyhton.png">
-                    <img src ="javascript.png">
-                    <img src ="css.png">
-                    <img src ="html.png">
-                    <img src ="matlab.png">
-                    <img src ="r.png">
-                    <img src ="wireshark.png">
-                    <img src ="git.png">
-                </div>
-        </div>
-        
-        <div class = "othersay" id = "othersay">
-            <p>What others goes here</p>
+            <div class = "othersay" id = "othersay">
+                <p>What others goes here</p>
+            </div>
         </div>
         
         <script src ="main.js"></script>   
